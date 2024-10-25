@@ -1,0 +1,18 @@
+.productContentContainer {
+ display: flex;
+ flex-direction: column;
+ width: 700px;
+ height: 590px;
+ border-radius: 20px;
+ background-color: var(--background);
+}
+
+.productContentImage {
+    width: 230px;
+    height: 250px;
+    margin: auto;
+}
+
+.productContentTitle{
+    text-align: center;
+}

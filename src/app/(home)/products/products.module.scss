@@ -1,0 +1,23 @@
+.productsWrap {
+    display: flex;
+    justify-content: center;
+    width: calc(100vw - 20px);
+    height: 1080px;
+    background-color: var(--color-silver-gray);
+}
+
+.productsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.productContainerTitle {
+    margin: 30px 0;
+}
+
+.productsCardsContainer {
+    display: flex;
+    justify-content: center;
+    width: 1360px;
+    height: 600px;
+}

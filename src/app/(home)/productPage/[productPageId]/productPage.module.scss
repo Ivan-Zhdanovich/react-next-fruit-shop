@@ -1,0 +1,27 @@
+.productPageWrap {
+    width: calc(100vw - 20px);
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: var(--color-silver-gray);
+}
+
+.productPageLeftButtonWrapper {
+    margin: 10px 0;
+}
+
+.productPageLeftButton {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--background);
+
+    &__Icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        margin-bottom: -8px; 
+    }
+}

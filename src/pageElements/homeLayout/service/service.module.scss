@@ -1,0 +1,12 @@
+.mainPageContainer {
+    display: flex;
+    width: calc(100vw - 20px);
+
+    &__Header {
+        text-align: center;
+        
+    &__Text {
+        margin-left: 24px;
+    }
+    }
+}
