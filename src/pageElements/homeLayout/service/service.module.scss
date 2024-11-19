@@ -4,9 +4,49 @@
 
     &__Header {
         text-align: center;
+
+    &__Title {
+        @media (max-width: 780) {
+            font-size: x-large;
+        }
+
+        @media (max-width: 660) {
+            font-size: large;
+        }
+    }
         
     &__Text {
         margin-left: 24px;
+
+        @media (max-width: 780) {
+            & {
+                font-size: small;
+            }
+        }
+
+        @media (max-width: 660) {
+            & {
+                font-size: x-small;
+            }
+        }
     }
+    }
+}
+
+.mainPictureWrapper {
+    @media (max-width: 1030) {
+        & {
+            width: 450px;
+        }
+    }
+}
+
+.mainPicture {
+    @media (max-width: 1030) {
+        & {
+            width: 450px;
+            height: 300px;
+
+        }
     }
 }
