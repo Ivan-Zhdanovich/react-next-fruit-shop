@@ -1,5 +1,5 @@
 {
-  "name": "slmax-meow-react-testovoe-zadanie",
+  "name": "next-fruit-shop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.0.0",
-    "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020",
-    "sass": "^1.80.3"
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "sass": "^1.80.3",
+    "sass-loader": "^16.0.4"
   },
   "devDependencies": {
     "@types/node": "^20",

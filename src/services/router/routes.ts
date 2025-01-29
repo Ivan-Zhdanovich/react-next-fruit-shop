@@ -2,5 +2,6 @@ export enum MainPath {
     Main = "/",
     AboutApp = "/aboutApp",
     ProductPage = "/productPage",
-    Products = "/products"
+    Products = "/products",
+    Feedback = "/feedback"
 }

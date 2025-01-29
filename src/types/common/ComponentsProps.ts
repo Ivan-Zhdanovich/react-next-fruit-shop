@@ -17,3 +17,10 @@ export interface IProductContent {
     id: string,
     productContentAction?: () => void,
 }
+
+export interface IFeedbackForm {
+    name: string,
+    email: string,
+    phone: string,
+    message: string,
+}

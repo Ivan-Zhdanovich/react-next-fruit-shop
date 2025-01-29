@@ -19,6 +19,9 @@ export default function MainHeader() {
         <Link className={style.navigationLink} href={MainPath.AboutApp}>
           <p className={style.navigationLink__Text}>О приложении</p>
         </Link>
+        <Link className={style.navigationLink} href={MainPath.Feedback}>
+          <p className={style.navigationLink__Text}>Обратная связь</p>
+        </Link>
       </>
     );
   };
